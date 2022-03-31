@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display data page</title>
+</head>
+<body>
+
+<table border = 1>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+
+        {% for sam in sam_db %}
+            <tr>
+                <td>{{ sam.id }}</td> <td>{{ sam.name }} </td>
+            </tr>
+        {% endfor %}
+</table>
+
+</body>
+</html>
