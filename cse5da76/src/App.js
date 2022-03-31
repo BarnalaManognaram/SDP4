@@ -6,6 +6,7 @@ import dances from './components/dances';
 import emperor from './components/emperor';
 import signup from './components/signup';
 import food from './components/food';
+import login from './components/login';
 import Navigation from './components/Navigation';
 import { Switch } from 'react-router-dom';
  
@@ -21,6 +22,7 @@ class App extends Component {
              <Route path='/emperor' component={emperor} />
              <Route path='/signup' component={signup} />
              <Route path='/food' component={food} />
+             <Route path='/login' component={login} />
              
 
            

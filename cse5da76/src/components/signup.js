@@ -21,6 +21,9 @@ const signup = () => {
          <input type="password" placeholder="Enter Password" name="password" required></input>
  	     <label for="repeatPassword"><b>Repeat Password</b></label>
           <input type="password" placeholder="Repeat Password" name="repeatPassword"required></input>
+          <br>
+          </br>
+          <a href="/login">Already have an account?</a>
           <button type="button" class="cancel">Cancel</button>
 	   <button type="submit" class="signup">Sign Up</button>
     
