@@ -3,6 +3,9 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
  
 import monuments from './components/monuments';
 import dances from './components/dances';
+import emperor from './components/emperor';
+import signup from './components/signup';
+import food from './components/food';
 import Navigation from './components/Navigation';
 import { Switch } from 'react-router-dom';
  
@@ -14,11 +17,15 @@ class App extends Component {
           <Navigation />
             <Switch>
              <Route path="/monuments" component={monuments} exact/>
-             <Route path="/dances" component={dances} exact/>
+             <Route path="/dances" component={dances} />
+             <Route path='/emperor' component={emperor} />
+             <Route path='/signup' component={signup} />
+             <Route path='/food' component={food} />
+             
 
            
            </Switch>
-           <h1>you can navigate to any page through this page</h1>
+         
         </div> 
       </BrowserRouter>
      
