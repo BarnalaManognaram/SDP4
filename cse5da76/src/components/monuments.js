@@ -1,9 +1,24 @@
 import React from 'react';
+import { NavLink, Redirect } from 'react-router-dom';
 import './App.css';
 const monuments = () => {
     return (
         <div class='All'>
+   <div class="header">
+ 
+ <div class="header-right">
+
+     <NavLink to="/monuments">monuments</NavLink>
+     <NavLink to="/dances">dances</NavLink>
+     <NavLink to="/emperor">emperor</NavLink>
+     <NavLink to="/food">food</NavLink>
+     <NavLink to="/tourist">tourist</NavLink>
+     <NavLink to="/packages">tourist packages</NavLink>
+     <NavLink to="/logout">logout</NavLink>
+     
    
+  </div>
+  </div>
  <div class="image">
   <br></br>
   <center><img src="https://thumbs.dreamstime.com/b/taj-mahal-agra-india-morning-light-reflection-water-uttar-pradesh-108954918.jpg" height={250}></img></center>
@@ -95,7 +110,7 @@ In the evening, Golconda Fort comes to life with the light and sound show which 
     &nbsp; <div class="head">
       Contact us<br></br>
       Email us if any issues</div><br></br>
-    &nbsp; Email id:190030140@kluniversity.in
+    &nbsp; Email id:190030140@kluniversity.in<br></br><br></br>
       
   </div>
 </div>

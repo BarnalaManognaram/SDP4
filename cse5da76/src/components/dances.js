@@ -1,10 +1,31 @@
 import React from 'react';
 
 import './App.css';
+import { NavLink, Redirect } from 'react-router-dom';
+import Navigation from './Navigation';
 const monuments = () => {
+  
     return (
-        <div class='All'>
+      
+      
+ 
+          
+  <div class='All'>
+     <div class="header">
+ 
+ <div class="header-right">
+
+     <NavLink to="/monuments">monuments</NavLink>
+     <NavLink to="/dances">dances</NavLink>
+     <NavLink to="/emperor">emperor</NavLink>
+     <NavLink to="/food">food</NavLink>
+     <NavLink to="/tourist">tourist</NavLink>
+     <NavLink to="/packages">tourist packages</NavLink>
+     <NavLink to="/logout">logout</NavLink>
+     
    
+  </div>
+  </div>
    <div class="image">
   <br></br>
   < center><img src="bharatanatyam.jpg" height={350} width={300}></img></center>
@@ -77,7 +98,7 @@ Jagoi and cholom are the two main divisions in Manipur’s dance, the one gentle
     &nbsp; <div class="head">
       Contact us<br></br>
       Email us if any issues</div><br></br>
-    &nbsp; Email id:190030140@kluniversity.in
+    &nbsp; Email id:190030140@kluniversity.in<br></br><br></br>
       
   </div>
 

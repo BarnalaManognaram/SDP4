@@ -5,7 +5,7 @@ const signup = () => {
     return(
 <div>
     <body>
-    <form action="/monuments">
+    <form>
          <div class="formContainer">
          <h1>Sign Up</h1>
          <hr></hr>
@@ -13,8 +13,6 @@ const signup = () => {
          <input type="text" placeholder="Enter Name" name="name" required></input>
          <label for="email"><b>Email</b></label>
          <input type="text" placeholder="Enter Email" name="email" required></input>
-         <label for="country"><b>Country</b></label>
-         <input type="text" placeholder="Enter country" name="country" required></input>
          <label for="mobile"><b>Mobile</b></label>
          <input type="text" placeholder="Enter mobile" name="mobile" required></input>
          <label for="password"><b>Password</b></label>
@@ -24,7 +22,7 @@ const signup = () => {
           <br>
           </br>
           <a href="/login">Already have an account?</a>
-          <button type="button" class="cancel">Cancel</button>
+          <a href="/monuments"> <button type="button" class="cancel">Cancel</button></a>
 	   <button type="submit" class="signup">Sign Up</button>
     
 		</div>

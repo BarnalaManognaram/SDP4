@@ -17,13 +17,12 @@ const login = () => {
          <a href="/signup">Dont have an account?</a>
           <button type="button" class="cancel">Cancel</button>
           
-	   <button type="submit" class="signup">Sign Up</button>
+	   <button type="submit"class="signup">Log in</button>
     
 		</div>
     </form>
     </body>
 </div>
-
     );
 }
 export default login;
